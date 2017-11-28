@@ -701,6 +701,7 @@ img {
 
 h1.article-title a{
 	color: #333;
+	font-family: Georgia,serif;
 }
 
 @media (max-width: 1000px) {
