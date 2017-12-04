@@ -542,7 +542,8 @@ img {
 }
 
 .Card-title-tags {
-	font-family: -apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
+	font-family: -apple-system,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
+	display: inline-block；
 }
 
 .Card-excerpt{
@@ -572,6 +573,7 @@ img {
 
 .Card .Card-meta {
 	display: block;
+	font-size: 0.8em;
 }
 
 .Card-hover:hover .Card-title{
