@@ -248,7 +248,7 @@ img {
 }
 
 .container:first-child {
-	margin: 9em auto 0 auto;
+	margin: 8em auto 0 auto;
 }
 
 /* For devices larger than 400px */
@@ -294,7 +294,7 @@ img {
 	flex: 1;
 	flex-grow:1;
 	font-size: 2.5em;
-	font-family: Georgia, Microsoft YaHei,serif;
+	font-family: Georgia,serif;
 	font-stretch: ultra-expanded;
 	/*font-style: italic;*/
 }
@@ -454,10 +454,11 @@ img {
 /* Index intro */
 
 .index-intro {
-	margin: 0 auto 2em auto;
+	margin-bottom: 1em;
 	text-align: center;
-	font-family: Georgia,Microsoft YaHei,serif;
-	font-size: 1.1em;
+	font-family: -apple-system,Microsoft YaHei,sans-serif;
+	font-size: 1em;
+	color: grey;
 }
 
 /* Card */
