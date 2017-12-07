@@ -20,7 +20,14 @@ function changeLayoutOnTouchScreen() {
 			el.classList.add("Card-excerpt-notouch")
 		});
 		// set to hide (tags) in cards, as it is involved in exerpt already
-		elems = document.querySelectorAll(".Card-title-tags");
+		/*
+		elems = document.querySelectorAll(".Card-tags");
+		[].forEach.call(elems, function(el) {
+			el.style.display = "none";
+		});
+		*/
+
+		elems = document.querySelectorAll(".Card-meta");
 		[].forEach.call(elems, function(el) {
 			el.style.display = "none";
 		});
