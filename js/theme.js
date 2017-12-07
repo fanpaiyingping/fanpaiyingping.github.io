@@ -21,7 +21,7 @@ function changeLayoutOnTouchScreen() {
 		});
 		// set to hide (tags) in cards, as it is involved in exerpt already
 		
-		elems = document.querySelectorAll(".Card-excerpt-tags");
+		elems = document.querySelectorAll(".Card-title-tags");
 		[].forEach.call(elems, function(el) {
 			el.style.display = "none";
 		});
