@@ -14,16 +14,17 @@ function changeLayoutOnTouchScreen() {
 			el.classList.remove("Card-hover");
 		});
 
-		// set to display exerpt and title together in cards
-		elems = document.querySelectorAll(".Card-excerpt");
-		[].forEach.call(elems, function(el) {
-			el.classList.add("Card-excerpt-notouch")
-		});
 		// set to hide (tags) in cards, as it is involved in exerpt already
 		
 		elems = document.querySelectorAll(".Card-title-tags");
 		[].forEach.call(elems, function(el) {
 			el.style.display = "none";
+		});
+
+		// set to display exerpt and title together in cards
+		elems = document.querySelectorAll(".Card-excerpt");
+		[].forEach.call(elems, function(el) {
+			el.classList.add("Card-excerpt-notouch")
 		});
 
 		elems = document.querySelectorAll(".Card-meta");
