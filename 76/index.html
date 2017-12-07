@@ -159,7 +159,9 @@
 function loadAudio() {
     var myAudio = document.getElementsByTagName('audio');
     if (myAudio != 'null') {
-        alert(myAudio[0].source);
+        if (myAudio[0].source == 'null') {
+            myAudio[0].source = "http://image.kaolafm.net/mz/audios/201709/d6c53b4a-cdd6-4ec6-ae29-700a204db003.mp3";
+        }
     }
 }
 
@@ -192,9 +194,9 @@ function loadAudio() {
     <p>
         
 
-	<label><a href="/tags/雷普利/">#雷普利</a></label>
-
 	<label><a href="/tags/段炼/">#段炼</a></label>
+
+	<label><a href="/tags/雷普利/">#雷普利</a></label>
 
 
     </p>

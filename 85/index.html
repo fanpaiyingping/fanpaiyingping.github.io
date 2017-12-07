@@ -159,7 +159,9 @@
 function loadAudio() {
     var myAudio = document.getElementsByTagName('audio');
     if (myAudio != 'null') {
-        alert(myAudio[0].source);
+        if (myAudio[0].source == 'null') {
+            myAudio[0].source = "http://image.kaolafm.net/mz/audios/201711/2a1cb7cf-ffb3-4be3-84fd-ae56643400ed.mp3";
+        }
     }
 }
 
