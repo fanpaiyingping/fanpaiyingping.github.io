@@ -153,15 +153,12 @@
 </style>
 
 <article class="article">
-<body onload="loadAudio()">
 
 <script>
 function loadAudio() {
     var myAudio = document.getElementsByTagName('audio');
     if (myAudio != 'null') {
-        if (myAudio[0].source == 'null') {
-            myAudio[0].source = "http://image.kaolafm.net/mz/audios/201710/9589e4e4-876a-4629-b39e-5c08a5fb51c6.mp3";
-        }
+        myAudio[0].focus();
     }
 }
 
