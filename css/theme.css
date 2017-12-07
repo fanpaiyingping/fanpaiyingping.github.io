@@ -546,6 +546,11 @@ img {
 	display: inline-block；
 }
 
+.Card-excerpt-tags {
+	font-family: -apple-system,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
+	display: inline-block；
+}
+
 .Card-excerpt{
 	padding-top: 1.8em;
 	animation-name: fadeInLeft;
