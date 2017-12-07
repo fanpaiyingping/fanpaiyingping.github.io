@@ -157,10 +157,13 @@
 
 <script>
 function loadAudio() {
+    console.log("look for audio");
     var myAudio = document.getElementsByTagName('audio');
     if (myAudio != 'null') {
         myAudio[0].focus();
-        console.log("sisi");
+        console.log("found");
+    } else {
+        console.log("no audio");
     }
 }
 
