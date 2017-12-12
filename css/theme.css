@@ -307,7 +307,7 @@ img {
 /* Footer */
 
 .footer {
-	margin: 3em 0;
+	margin: 1em 0;
 	animation-name: fadeInLeft;
 	animation-duration: 0.5s;
     animation-fill-mode: both;
