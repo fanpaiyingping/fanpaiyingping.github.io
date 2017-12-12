@@ -307,7 +307,7 @@ img {
 /* Footer */
 
 .footer {
-	margin: 1em 0;
+	margin: 1em 0 3em 0;
 	animation-name: fadeInLeft;
 	animation-duration: 0.5s;
     animation-fill-mode: both;
@@ -716,7 +716,7 @@ h1.article-title a{
 @media (max-width: 1000px) {
 	.article {
 		width: 90%;
-		margin: 9em auto;
+		margin: 9em auto 0em auto;
 	}
 }
 
