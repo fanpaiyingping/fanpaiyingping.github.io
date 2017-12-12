@@ -275,6 +275,7 @@ img {
 	justify-content: center;
 	align-items: center;
 	max-height: 5em;
+	min-height: 4em;
 	animation-name: fadeInDown;
 	animation-duration: 1s;
   	animation-fill-mode: both;
